@@ -1,6 +1,12 @@
 # JSH
 JSH (Java SHell) is a shell designed as a replacement for BASH or other UNIX like shells. Works on Windows, Mac, and Linux, however for Windows and Mac it will populate in a directory within the users home directory location.  On Linux, the system should be run as root, and will populate itself in the root directory.  If not run as root, it will act the same as it would on Windows or Mac.
 
+********
+PLEASE NOTE
+JSH is still in early development!!
+In its current state its close to a quarter complete
+********
+
 # Why JSH?
 JSH is lightweight, fast, and easy to work with.
 It is fully extensible, with a Module framework, and a Command framework
