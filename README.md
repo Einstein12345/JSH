@@ -47,3 +47,8 @@ To create a Module that can be used by JSH,
   - Place runtime code within the run() method
   - Copy compiled files into a sub-directory of JSH's modules directory
   - Append /module.lst with the directory name containing the module files
+  
+  # Documentation
+  
+  https://einstein12345.github.io/docs/index.html
+  
