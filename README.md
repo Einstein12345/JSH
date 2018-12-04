@@ -21,7 +21,7 @@ Where does JSH populate?
   - JSH will create a file "module.lst" that contains a list of all modules on the system
   - JSH will create a directory "JSH" in /var/log to log all errors to
   - JSH will create a directory "config" in / on linux that contains configuration files
-  -(If / is inaccessible, a folder JSH will be created in the home directory containing all necessary files)
+    - (If / is inaccessible, a folder JSH will be created in the home directory containing all necessary files)
   
 Will JSH replace my current shell?
     
