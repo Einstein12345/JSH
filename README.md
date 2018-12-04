@@ -21,14 +21,11 @@ Where does JSH populate?
   - JSH will create a file "module.lst" that contains a list of all modules on the system
   - JSH will create a directory "JSH" in /var/log to log all errors to
   - JSH will create a directory "config" in / on linux that contains configuration files
+    -(If / is inaccessible, a folder JSH will be created in the home directory containing all necessary files)
   
 Will JSH replace my current shell?
     
  - While this is the intended outcome, JSH cannot yet replace a linux shell completely
-  
-Is JSH Multi-Threaded?
- 
- - Yes, all Commands and Modules are run in separate threads to prevent system hangups
 
 Can Commands call Module methods?
 
@@ -39,7 +36,7 @@ Can Commands call Module methods?
   
 To create a Command that can be used by JSH, 
 
- - Extend the terra.shell.command.Command class
+ - Extend the terra.shell.command.Command class, or the terra.shell.command.BasicCommand class
  - Place all runtime code within the start() method
  - Copy the compiled class file to the JSH command bin directory
  
